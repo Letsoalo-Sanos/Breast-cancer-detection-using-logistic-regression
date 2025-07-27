@@ -6,14 +6,8 @@ This section outlines the full process for training and evaluating a logistic re
 
 ###  Train-Test Split
 
-We begin by dividing the dataset into training and testing sets using an 80/20 split:
+We begin by dividing the dataset into training and testing sets using an 80/20 split
 
-```python
-from sklearn.model_selection import train_test_split
-
-X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.2, random_state=42)
-```
 
 ###  Model Evaluation
 - **Confusion Matrix**: Visual assessment of TP, FP, TN, FN
